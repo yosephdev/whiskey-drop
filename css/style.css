@@ -4,32 +4,14 @@ body {
 
 /* Containers */
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
 
-.alert-container .col-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.site-wide-alert {
-    border-radius: 0;
-    border-bottom: 0;
-    padding: 5px 15px;
-    background-color: #eec802;
-    border-color: #eec802;
-}
-
 .callout-container {
     height: 100vh;
     background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -46,11 +28,20 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {}
+/* Alert */
 
-.features-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 
-.favorites-container {}
+.site-wide-alert {
+    border-radius: 0;
+    border-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+}
 
 /* Page Headers */
 
@@ -136,7 +127,6 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    color: white;
 }
 
 .jumbotron .lead {
@@ -197,6 +187,7 @@ body {
 }
 
 /* Monthly Favorites */
+
 .monthly-favorites {
     text-align: center;
     margin-bottom: 40px;
