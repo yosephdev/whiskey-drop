@@ -81,6 +81,10 @@ body {
     width: 35px;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 /* Content containers */
 
 .content-container {
