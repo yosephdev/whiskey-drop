@@ -4,6 +4,13 @@ body {
 
 /* Containers */
 
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
