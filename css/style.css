@@ -1,9 +1,9 @@
+/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 /* Containers */
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
@@ -29,7 +29,6 @@ body {
 }
 
 /* Alert */
-
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -44,7 +43,6 @@ body {
 }
 
 /* Page Headers */
-
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
@@ -60,7 +58,6 @@ body {
 }
 
 /* Block dividers */
-
 .block-divider {
     width: 75px;
     height: 5px;
@@ -81,14 +78,12 @@ body {
 }
 
 /* Content containers */
-
 .content-container {
     padding-top: 75px;
     padding-bottom: 75px;
 }
 
 /* Navbar */
-
 .navalert-container {
     position: absolute;
     top: 0;
@@ -118,7 +113,6 @@ body {
 }
 
 /* Jumbotron */
-
 .jumbotron {
     background-color: transparent;
 }
@@ -141,7 +135,6 @@ body {
 }
 
 /* Buttons */
-
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
@@ -164,7 +157,6 @@ body {
 }
 
 /* Features */
-
 .feature {
     text-align: center;
     margin-bottom: 40px;
@@ -187,7 +179,6 @@ body {
 }
 
 /* Monthly Favorites */
-
 .monthly-favorites {
     text-align: center;
     margin-bottom: 40px;
@@ -205,4 +196,45 @@ body {
 
 .monthly-favorites .card-text {
     color: #666;
+}
+
+/* Footer */
+.footer-container {
+    text-align: left;
+}
+
+.footer h3 {
+    font-weight: bold;
+}
+
+.footer a {
+    color: #f05f40;
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#mc_embed_signup .button {
+    background-color: #f05f40;
+    border: none;
+    color: white;
+    font-weight: bold;
+    /* padding: 10px 20px; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #df4929;
 }
